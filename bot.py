@@ -7,7 +7,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from aiohttp import web
 
 # --- ДАННЫЕ (заполни свои) ---
-TOKEN = 'Т8693879510:AAHqWuXS-MiiTWexzPt9FD0VUBRjb3R0dgY'
+TOKEN = '8693879510:AAHqWuXS-MiiTWexzPt9FD0VUBRjb3R0dgY'
 CHAT_ID =  823414394
 PHOTO_DIR = os.path.join(os.path.dirname(__file__), 'photoes')
 
