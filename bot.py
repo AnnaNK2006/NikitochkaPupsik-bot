@@ -52,7 +52,7 @@ async def main():
     print(f"Сервер запущен на порту {port}")
 
     # 2. Настройка планировщика (каждый день в 10:00)
-    scheduler.add_job(send_daily_photo, 'cron', hour=10, minute=0)
+    scheduler.add_job(send_daily_photo, 'cron', hour=10, minute=0, timezone='Asia/Almaty')
     scheduler.start()
 
     # 3. Мгновенная проверка при запуске
